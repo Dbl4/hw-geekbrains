@@ -1,0 +1,296 @@
+/* 1.Разновидность шрифта */
+
+html, body {
+    font-family: sans-serif;
+}
+
+/* 2.Стиль для всех параграфов */
+.text {
+    font-size: 16px;
+    line-height: 26px;
+    color: #1f3f68;
+    letter-spacing: 0.05em;
+    opacity: 0.6;
+}
+
+/* 3.Стиль заголовков */
+.header_h1 {
+    width: 510px;
+    font-size: 64px;
+    color: #1f3f68;
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 74px;
+    letter-spacing: 0.04em;
+    margin-bottom: 32px;
+}
+
+.header_h2 {
+    font-weight: 500;
+    font-size: 44px;
+    text-align: center;
+}
+
+.header_h3 {
+    font-size: 36px;
+    text-align: center;
+    font-weight: 300;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+
+.header_h4 {
+    font-size: 20px;
+    color: #1f3f68;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    margin-bottom: 14px;
+}
+
+/* 4.Стиль полей ввода */
+.interactive {
+    border: 1px solid #356ead;
+    box-sizing: border-box;
+    border-radius: 10px;
+    opacity: 0.4;
+}
+
+/* 5. Стиль кнопок */
+.form_button {
+    background: #5a98d0;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.top__button {
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background: #5A98D0;
+    box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+    border-radius: 10px;
+    padding: 15px 50px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 71px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.top {
+    height: 768px;
+    background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.top__box {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style-type: none;
+    padding-top: 42px;
+}
+
+.top_index_name {
+    padding-top: 115px;
+    flex-grow: 1;
+    background-image: url(../image/top_back.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+.what-we-do {
+    padding-top: 64px;
+}
+
+.description_top_index_header {
+    width: 359px;
+    padding: 32px 44px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.card__link {
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #5A98D0;
+    padding-top: 14px;
+    text-decoration-line: none;
+}
+
+.card__image {
+    align-self: center;
+    margin-bottom: 51px;
+}
+
+.text_middle_index {
+    width: 75%;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    opacity: 1;
+    color: #222222;
+    margin: 32px auto 64px;
+}
+
+.midle_index_parent {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+}
+
+.midle_index_item {
+    position: relative;
+    flex-grow: 1;
+}
+
+.margin_midle_index_item {
+    margin-right: 32px;
+}
+
+.midle_index_image {
+    width: 100%;
+}
+
+.text_index_image {
+    top: 64px;
+    right: 64px;
+    font-size: 32px;
+    line-height: 46px;
+    text-align: right;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    position: absolute;
+}
+
+.text_image_parent {
+    top: 32px;
+    left: 32px;
+    font-size: 28px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    position: absolute;
+}
+
+.footer {
+    margin-top: 112px;
+    padding-top: 91px;
+    padding-bottom: 64px;
+    background: #316099;
+}
+
+.bottom_index_header {
+    width: 495px;
+}
+
+.bottom_index_header_h3 {
+    width: 341px;
+    font-size: 36px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    text-align: left;
+    margin-bottom: 32px;
+}
+
+.text_bottom_index {
+    color: #FFFFFF;
+}
+
+
+.button__bottom {
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background: #5A98D0;
+    box-shadow: 5px 10px 20px rgb(53 110 173 / 20%);
+    padding: 15px 80px;
+    text-decoration: none;
+}
+
+.top__footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 96px;
+    align-items: center;
+}
+
+.contact_list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 64px;
+}
+
+.text__footer {
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+
+.link__footer {
+    text-decoration: none;
+}
+
+.link__footer:hover {
+    color: burlywood;
+}
+
+.contact_list_style {
+    flex-grow: 1;
+    list-style-position: inside;
+}
+
+.bottom_index_footer {
+    margin-top: 64px;
+}
+
+.top_contacts_name {
+    text-align: center;
+}
+
+.block_contacts {
+    display: flex;
+    justify-content: space-between;
+}
